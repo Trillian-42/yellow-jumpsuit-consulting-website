@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Yellow Jumpsuit Consulting helps small businesses work smarter through Atlassian administration, practical AI adoption, and workflow automation. Short-term and fractional consulting available." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yellow Jumpsuit Consulting LLC — Atlassian Expert. Agile Leader. Problem Solver.</title>
+  <title>Yellow Jumpsuit Consulting LLC — Atlassian, AI & Automation Consulting</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -494,44 +495,57 @@
     .lm-form button:hover { background: #f0c800; }
     .lm-message { font-size: 0.9rem; color: var(--white); font-weight: 600; display: none; }
 
-  </style>
-</head>
-<body>
+  
+/* STARTER SERVICES */
+.starter-section { background: var(--gray); padding: 70px 40px; }
+.starter-inner { max-width: 1100px; margin: 0 auto; }
+.starter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; }
+.starter-card { background: var(--white); border-left: 4px solid var(--cyan); padding: 28px 24px; transition: transform 0.2s, box-shadow 0.2s; }
+.starter-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+.starter-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
+.starter-card p { font-size: 0.9rem; color: var(--dark-gray); line-height: 1.7; }
 
-<!-- NAV -->
+/* FRACTIONAL */
+.fractional-section { background: var(--black); color: var(--white); padding: 70px 40px; }
+.fractional-inner { max-width: 1000px; margin: 0 auto; }
+.fractional-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.frac-tag { background: rgba(255,214,0,0.12); border: 1px solid var(--yellow); color: var(--yellow); padding: 8px 16px; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.5px; }
+
+  </style><!-- NAV -->
 <nav>
-  <div class="nav-logo">YELLOW <span>JUMPSUIT</span> CONSULTING</div>
+  <div class=nav-logo>YELLOW <span>JUMPSUIT</span> CONSULTING</div>
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#services">Services</a></li>
-    <li><a href="#ai">AI Services</a></li>
+    <li><a href="#how-we-work">How We Work</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
-
-
 <!-- AVAILABILITY BANNER -->
 <div style="background: var(--cyan); color: var(--black); text-align:center; padding:12px 24px; font-weight:700; font-size:0.85rem; letter-spacing:0.3px;">
   Currently open to full-time / contract Atlassian Administrator roles — and available for short-term consulting projects on the side.
 </div>
 
+
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-text">
-    <div class="hero-eyebrow">✈ Side Consulting · Short-Term Projects · Startups &amp; Small Teams</div>
-    <h1>WORK SMARTER.<br/><span>MORE DONE.</span><br/><em>LESS CHAOS.</em></h1>
-    <div class="hero-tagline">Here to help you get MORE DONE with LESS CHAOS.</div>
-    <p class="hero-sub">
-      Helping startups and small teams work smarter through AI, automation, and modern work management. I specialize in Atlassian administration, practical AI adoption, and workflow automation — available for short-term, project-based engagements alongside my full-time work.
+<section class=hero>
+  <div class=hero-text>
+    <div class=hero-eyebrow>Atlassian · AI · Automation · Fractional Consulting</div>
+    <h1>HELPING SMALL BUSINESSES<br/><span>WORK SMARTER</span><br/>WITH <em>ATLASSIAN, AI & AUTOMATION</em></h1>
+    <div class=hero-tagline>Here to help you get MORE DONE with LESS CHAOS.</div>
+    <p class=hero-sub>
+      Streamline your workflows, simplify your tools, and adopt practical AI solutions that save time and help your team work more efficiently. Available for full-time roles, fractional engagements, and short-term consulting projects.
     </p>
-    <a href="#contact" class="btn-primary">GET HELP NOW →</a>
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <a href="#contact" class="btn-primary">SCHEDULE A CONSULTATION &rarr;</a>
+      <a href="#services" style="background:transparent; color:var(--yellow); padding:14px 32px; font-weight:700; font-size:1rem; border:2px solid var(--yellow); text-decoration:none; display:inline-block; transition: background 0.2s;">VIEW SERVICES</a>
+    </div>
   </div>
-  <div class="hero-image">
+  <div class=hero-image>
     <img src="https://base44.app/api/apps/6a06b8ab87ba6d9137183d05/files/mp/public/6a06b8ab87ba6d9137183d05/341c43915_imessage_media_cdf2c160b193.jpg" alt="Wendy Grapentine - Yellow Jumpsuit Consulting" />
   </div>
 </section>
-
 <!-- CREDENTIALS STRIP -->
 <div class="creds-strip">
   <div class="cred-item"><span class="dot"></span> Atlassian Community Champion</div>
@@ -543,102 +557,98 @@
 </div>
 
 
+
 <!-- WHO THIS IS FOR -->
 <section style="background: var(--gray); padding: 56px 40px; text-align:center;">
   <div style="max-width:720px; margin:0 auto;">
-    <div class="section-label" style="text-align:center">Who This Is For</div>
-    <h2 style="font-family:'Oswald', sans-serif; font-size:1.8rem; margin-bottom:16px;">Startups &amp; Small Teams Without an Atlassian Admin (Yet)</h2>
+    <div class=section-label style="text-align:center">Who This Is For</div>
+    <h2 style="font-family:'Oswald', sans-serif; font-size:1.8rem; margin-bottom:16px;">Startups & Small Teams Ready to Work Smarter</h2>
     <p style="color:var(--dark-gray); font-size:1rem; line-height:1.7; max-width:640px; margin:0 auto;">
-      Yellow Jumpsuit Consulting is project-based, part-time work I do alongside my full-time Atlassian admin role — a handful of short-term engagements at a time. It's built for small businesses that need focused, temporary help getting Jira or Confluence in shape, not an ongoing hire or enterprise contract.
+      Yellow Jumpsuit Consulting is built for three types of organizations: companies looking to hire an experienced Atlassian Administrator full-time, small businesses that need fractional or short-term Atlassian consulting, and teams curious about practical AI adoption without the hype. If any of these sounds like you, you're in the right place.
     </p>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about" id="about">
-  <div class="about-image">
+<section class=about id=about>
+  <div class=about-image>
     <img src="https://base44.app/api/apps/6a06b8ab87ba6d9137183d05/files/mp/public/6a06b8ab87ba6d9137183d05/9db69d120_imessage_media_4f2ae0503105.jpg" alt="Wendy Grapentine - Atlassian Expert" />
   </div>
-  <div class="about-text">
-    <div class="section-label">About Wendy</div>
-    <h2>Focused Help.<br/><span>Part-Time</span> Hours.</h2>
+  <div class=about-text>
+    <div class=section-label>About Wendy</div>
+    <h2>Practical Help.<br/><span>Real Results.</span></h2>
     <p>
-      Hi, I'm Wendy Grapentine — Scrum Master, Atlassian Administrator, former K-12 teacher, and recovering full-stack developer. Yellow Jumpsuit Consulting is my side project: short-term, project-based Atlassian help for startups and small businesses that don't have (or need) a full-time admin yet.
+      Hi, I'm Wendy Grapentine — Atlassian Community Champion, Scrum Master, former K-12 teacher, and recovering full-stack developer. I help organizations work smarter through Atlassian administration, practical AI adoption, and workflow automation.
     </p>
     <p>
-      My background as a teacher means I don't just set things up and leave — I explain everything clearly, train your team, and make sure they can run it independently. Because tools only work if people actually understand them.
+      My background as a teacher shapes everything I do. I don't just set things up and leave — I explain the why, train your team, and make sure they can maintain it independently. Tools only work if people actually understand them.
     </p>
     <p>
-      I'm an <strong>Atlassian Community Champion</strong>, a certified Professional Scrum Master, and I've been deep in Atlassian tools since 2020. I also help with general tech cleanup and practical AI assistance outside of Atlassian. I take on a limited number of engagements at a time alongside my full-time Atlassian admin work — so if you need a few focused weeks to get your space in shape, that's exactly the kind of project I'm here for.
+      I'm available for full-time Atlassian Administrator roles, contract opportunities, and short-term consulting engagements. Any consulting I take on alongside full-time work is limited, project-based, and never in conflict with an employer.
     </p>
-    <div class="about-tags">
-      <span class="tag">Jira</span>
-      <span class="tag">Confluence</span>
-      <span class="tag">JSM</span>
-      <span class="tag">Trello</span>
-      <span class="tag">Rovo AI</span>
-      <span class="tag">Scrum</span>
-      <span class="tag">React / JS</span>
-      <span class="tag">SharePoint</span>
-      <span class="tag">Deskpro</span>
+    <div class=about-tags>
+      <span class=tag>Jira</span>
+      <span class=tag>Confluence</span>
+      <span class=tag>JSM</span>
+      <span class=tag>Jira Product Discovery</span>
+      <span class=tag>Rovo AI</span>
+      <span class=tag>Scrum</span>
+      <span class=tag>AI Enablement</span>
+      <span class=tag>Workflow Automation</span>
+      <span class=tag>React / JS</span>
     </div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section class="services" id="services">
-  <div class="services-inner">
-    <div class="section-label" style="text-align:center">What I Do</div>
-    <h2>Solutions Organized <span>Around Your Needs</span></h2>
-    <p class="services-sub">Not a list of tools — a set of outcomes. Here's how I help.</p>
-    <div class="services-grid">
+<section class=services id=services>
+  <div class=services-inner>
+    <div class=section-label style="text-align:center">What I Do</div>
+    <h2>Three Ways I <span>Help Your Business</span></h2>
+    <p class=services-sub>Focused on outcomes, not feature lists. Here's how Yellow Jumpsuit Consulting helps organizations work smarter.</p>
+    <div class=services-grid>
 
-      <div class="service-card" style="border-top:4px solid var(--yellow);">
-        <div class="service-icon">📋</div>
-        <h3>Optimize Work</h3>
-        <p>Fix the foundation. Clean up and configure your Atlassian tools so they work for your team — not against them.</p>
+      <div class=service-card style="border-top:4px solid var(--yellow);">
+        <div class=service-icon>&#x1F4CB;</div>
+        <h3>Atlassian Solutions</h3>
+        <p>Get the most from your Atlassian tools. Whether you need a cleanup, a fresh setup, or ongoing fractional admin support — I help you build a system your team actually uses.</p>
         <ul>
-          <li>Reduce Jira chaos</li>
-          <li>Jira Service Management setup</li>
-          <li>Confluence knowledge base</li>
-          <li>Governance &amp; process improvement</li>
+          <li>Jira Administration & Instance Cleanup</li>
+          <li>Jira Service Management</li>
+          <li>Confluence Knowledge Base</li>
+          <li>Jira Product Discovery</li>
+          <li>Workflow Design & Automation</li>
+          <li>Governance & Health Checks</li>
+          <li>User Training</li>
         </ul>
       </div>
 
-      <div class="service-card" style="border-top:4px solid var(--magenta);">
-        <div class="service-icon">🤖</div>
-        <h3>Adopt AI</h3>
-        <p>Introduce AI where it actually helps — practically, safely, without the hype. Your team starts using it, not just hearing about it.</p>
+      <div class=service-card style="border-top:4px solid var(--magenta);">
+        <div class=service-icon>&#x1F916;</div>
+        <h3>AI Enablement</h3>
+        <p>Curious about AI but not sure where to begin? I help businesses safely adopt practical AI tools that save time, improve productivity, and fit naturally into existing workflows — without the hype.</p>
         <ul>
-          <li>AI readiness workshops</li>
-          <li>Practical tool selection &amp; setup</li>
-          <li>Prompt engineering basics</li>
-          <li>Atlassian Intelligence &amp; Rovo</li>
-          <li>AI productivity coaching</li>
+          <li>AI Readiness Assessments</li>
+          <li>ChatGPT & Prompt Engineering Training</li>
+          <li>AI for Small Business</li>
+          <li>AI Workflow Design</li>
+          <li>AI Agent Strategy</li>
+          <li>Atlassian Intelligence & Rovo</li>
+          <li>Responsible AI Adoption</li>
         </ul>
       </div>
 
-      <div class="service-card" style="border-top:4px solid var(--cyan);">
-        <div class="service-icon">⚙️</div>
-        <h3>Automate Work</h3>
-        <p>Find the manual work your team shouldn't be doing — then build the automations to eliminate it, in Jira, JSM, or beyond.</p>
+      <div class=service-card style="border-top:4px solid var(--cyan);">
+        <div class=service-icon>&#x2699;&#xFE0F;</div>
+        <h3>Workflow Automation</h3>
+        <p>Find the manual work your team shouldn't be doing — then eliminate it. I map your business processes, identify automation opportunities, and build solutions that stick.</p>
         <ul>
-          <li>Eliminate manual work with automation</li>
-          <li>AI + business process integration</li>
-          <li>Documentation systems</li>
-          <li>General tech stack cleanup</li>
-        </ul>
-      </div>
-
-      <div class="service-card" style="border-top:4px solid var(--dark-gray);">
-        <div class="service-icon">🎓</div>
-        <h3>Enable Your Team</h3>
-        <p>Tools only work if people use them well. I train, coach, and document so your team stays self-sufficient after I'm gone.</p>
-        <ul>
-          <li>Get teams self-sufficient, fast</li>
-          <li>AI adoption workshops</li>
-          <li>Scrum &amp; Agile coaching</li>
-          <li>Custom training materials</li>
+          <li>Process Improvement & Workflow Mapping</li>
+          <li>Business Automation</li>
+          <li>Atlassian Automations</li>
+          <li>AI-assisted Workflows</li>
+          <li>Documentation & Knowledge Management</li>
+          <li>No-Code Solutions</li>
         </ul>
       </div>
 
@@ -685,6 +695,36 @@
   </div>
 </section>
 
+
+<!-- STARTER SERVICES -->
+<section class=starter-section>
+  <div class=starter-inner>
+    <div class=section-label style="text-align:center">AI Starter Services</div>
+    <h2 style="font-family:'Oswald', sans-serif; font-size:2.2rem; text-align:center; margin-bottom:8px;">New to AI? <span style="color:var(--cyan);">Start Here.</span></h2>
+    <p style="text-align:center; color:var(--dark-gray); font-size:1rem; margin-bottom:0;">Entry-level AI consulting designed for small businesses that want to explore AI practically and safely.</p>
+    <div class=starter-grid>
+
+      <div class=starter-card>
+        <div class=service-icon>&#x1F50D;</div>
+        <h3>AI Discovery Session</h3>
+        <p>A personalized 1-hour consultation to identify where AI can realistically save time in your business. Walk away with a clear, prioritized list of opportunities — no tech background required.</p>
+      </div>
+
+      <div class=starter-card>
+        <div class=service-icon>&#x1F393;</div>
+        <h3>Team AI Training</h3>
+        <p>Hands-on workshops introducing ChatGPT, prompt writing, AI safety, and everyday productivity tools. Practical, approachable, and tailored to how your team actually works.</p>
+      </div>
+
+      <div class=starter-card>
+        <div class=service-icon>&#x1F5FA;&#xFE0F;</div>
+        <h3>Workflow Review</h3>
+        <p>A structured review of your current business processes to identify the biggest opportunities for automation and AI — so you know exactly what to tackle first.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!-- APPROACH -->
 <section style="background: var(--black); color: var(--white); padding: 70px 40px;">
   <div style="max-width:800px; margin:0 auto; text-align:center;">
@@ -722,77 +762,108 @@
   </div>
 </section>
 
+
 <!-- PROCESS -->
-<section class="process">
-  <div class="section-label" style="text-align:center">How It Works</div>
+<section class=process id=how-we-work>
+  <div class=section-label style="text-align:center">How We Work</div>
   <h2>Simple Process.<br/><span>Real Results.</span></h2>
-  <p class="process-sub">No long contracts. No confusion. Just clear help from someone who knows what they're doing.</p>
-  <div class="process-steps">
-    <div class="process-step">
-      <div class="step-number">1</div>
-      <h4>Connect</h4>
-      <p>Fill out the form and tell me what's going on. Free 30-min discovery call.</p>
+  <p class=process-sub>No long contracts. No confusion. Just clear, practical help from start to finish.</p>
+  <div class=process-steps>
+    <div class=process-step>
+      <div class=step-number>1</div>
+      <h4>Discover</h4>
+      <p>Free 30-min conversation to understand your situation, tools, and goals.</p>
     </div>
-    <div class="process-step">
-      <div class="step-number">2</div>
-      <h4>Diagnose</h4>
-      <p>I audit your setup and map out exactly what needs to happen.</p>
+    <div class=process-step>
+      <div class=step-number>2</div>
+      <h4>Plan</h4>
+      <p>I audit your setup, identify opportunities, and map out exactly what needs to happen.</p>
     </div>
-    <div class="process-step">
-      <div class="step-number">3</div>
-      <h4>Execute</h4>
-      <p>I parachute in and get it done — clean, documented, tested.</p>
-    </div>
-    <div class="process-step">
-      <div class="step-number">4</div>
-      <h4>Train</h4>
-      <p>Your team learns the new system so it sticks long after I'm gone.</p>
-    </div>
-    <div class="process-step">
-      <div class="step-number">5</div>
+    <div class=process-step>
+      <div class=step-number>3</div>
       <h4>Improve</h4>
-      <p>Continuous support available — I'm always just a message away.</p>
+      <p>I get it done — clean, documented, and built to last. No shortcuts.</p>
+    </div>
+    <div class=process-step>
+      <div class=step-number>4</div>
+      <h4>Train</h4>
+      <p>Your team learns the new system so they stay self-sufficient long after I'm gone.</p>
+    </div>
+    <div class=process-step>
+      <div class=step-number>5</div>
+      <h4>Support</h4>
+      <p>Follow-up support available — I'm always just a message away if something comes up.</p>
     </div>
   </div>
 </section>
-
 
 <!-- AI SERVICES -->
-<section class="ai-section" id="ai">
-  <div class="ai-inner">
-    <div class="section-label" style="text-align:center; color: var(--cyan);">AI + Atlassian</div>
+<section class=ai-section id=ai>
+  <div class=ai-inner>
+    <div class=section-label style="text-align:center; color: var(--cyan);">AI Experience</div>
     <h2>Incorporating AI <span>Thoughtfully</span></h2>
-    <p class="ai-sub">AI isn't magic — but applied with intention, it changes everything. I design systems where AI amplifies human work without replacing human judgment.</p>
-    <div class="ai-grid">
-      <div class="ai-card">
-        <div class="ai-card-icon">&#x1F9E0;</div>
-        <h3>Intelligent Workflow Design</h3>
-        <p>I architect AI-powered workflows across Jira, JSM, and Jira Product Discovery — using agents, RAG (Retrieval-Augmented Generation), and MCP for intelligent request routing. The AI does the heavy lifting; your team stays in control.</p>
+    <p class=ai-sub>I actively work with modern AI technologies and continuously evaluate emerging tools. My goal is practical adoption — AI that genuinely improves how your team works, not tech for tech's sake.</p>
+    <div class=ai-grid>
+      <div class=ai-card>
+        <div class=ai-card-icon>&#x1F9E0;</div>
+        <h3>AI Agents & Workflow Design</h3>
+        <p>I design AI-powered workflows across Jira, JSM, and Jira Product Discovery — using agents and retrieval-augmented generation (RAG) for intelligent request routing. The AI handles the repetitive work; your team stays in control of decisions.</p>
       </div>
-      <div class="ai-card">
-        <div class="ai-card-icon">&#x1F91D;</div>
-        <h3>Human-in-the-Loop Approval Gates</h3>
-        <p>Good AI design doesn't remove humans from decisions — it gets them to the right decision faster. I build approval gates that let AI handle triage, classification, and drafts while humans review and sign off on what matters.</p>
+      <div class=ai-card>
+        <div class=ai-card-icon>&#x1F91D;</div>
+        <h3>Human-in-the-Loop Design</h3>
+        <p>Good AI doesn't remove humans from important decisions — it gets them to the right decision faster. I build workflows with approval gates so AI handles triage and drafts while your team reviews what matters.</p>
       </div>
-      <div class="ai-card">
-        <div class="ai-card-icon">&#x1F517;</div>
-        <h3>Agent + MCP Integration</h3>
-        <p>From Atlassian Rovo to custom AI agents, I connect your tools using Model Context Protocol (MCP) so your systems share context intelligently — no more copy-pasting between tools or lost tribal knowledge.</p>
+      <div class=ai-card>
+        <div class=ai-card-icon>&#x1F517;</div>
+        <h3>MCP & Tool Integration</h3>
+        <p>From Atlassian Rovo to custom AI agents, I connect your tools using Model Context Protocol (MCP) so your systems share context intelligently — reducing copy-paste work and lost tribal knowledge.</p>
       </div>
-      <div class="ai-card">
-        <div class="ai-card-icon">&#x1F4CA;</div>
-        <h3>RAG-Powered Knowledge Systems</h3>
-        <p>Turn your Confluence spaces and documentation into a living knowledge base that AI can actually query. Your team stops searching and starts asking — and gets real answers from your own content.</p>
+      <div class=ai-card>
+        <div class=ai-card-icon>&#x1F4CA;</div>
+        <h3>RAG Knowledge Systems</h3>
+        <p>Turn your Confluence spaces and documentation into a queryable knowledge base. Your team stops searching and starts asking — and gets real answers from your own content.</p>
       </div>
     </div>
-    <div class="ai-principles">
-      <div class="principle"><span class="principle-dot"></span><strong>Practical over flashy</strong> — AI that solves a real problem, not a demo</div>
-      <div class="principle"><span class="principle-dot"></span><strong>Transparent by design</strong> — your team always knows what the AI is doing and why</div>
-      <div class="principle"><span class="principle-dot"></span><strong>Incrementally adopted</strong> — we start small, prove value, then scale</div>
+    <div style="margin-top:40px; text-align:center;">
+      <p style="color:#aaa; font-size:0.9rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; margin-bottom:16px;">Current Areas of Exploration</p>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">AI Agents</span>
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">Business Automation</span>
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">Prompt Engineering</span>
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">AI-assisted Documentation</span>
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">Knowledge Management</span>
+        <span style="background:#1a1a1a; border:1px solid #333; color:#ccc; padding:8px 18px; font-size:0.85rem;">Workflow Automation</span>
+      </div>
+    </div>
+    <div class=ai-principles>
+      <div class=principle><span class=principle-dot></span><strong>Practical over flashy</strong> — AI that solves a real problem, not a demo</div>
+      <div class=principle><span class=principle-dot></span><strong>Transparent by design</strong> — your team always knows what the AI is doing and why</div>
+      <div class=principle><span class=principle-dot></span><strong>Incrementally adopted</strong> — start small, prove value, then scale</div>
     </div>
   </div>
 </section>
 
+<!-- FRACTIONAL -->
+<section class=fractional-section>
+  <div class=fractional-inner>
+    <div class=section-label style="color:var(--yellow); text-align:center">Fractional & Contract Consulting</div>
+    <h2 style="font-family:'Oswald', sans-serif; font-size:2.2rem; text-align:center; color:var(--white); margin-bottom:16px;">Experienced Expertise, <span style="color:var(--yellow);">Without the Full-Time Hire</span></h2>
+    <p style="text-align:center; color:#ccc; font-size:1rem; line-height:1.8; max-width:720px; margin:0 auto 32px;">
+      Yellow Jumpsuit Consulting specializes in flexible, project-based and fractional engagements for organizations that need experienced Atlassian and AI expertise without the overhead of a full-time employee. Short-term, focused, and built to leave you self-sufficient.
+    </p>
+    <div class=fractional-grid style="justify-content:center;">
+      <span class=frac-tag>Fractional Atlassian Administrator</span>
+      <span class=frac-tag>Short-Term Projects</span>
+      <span class=frac-tag>System Cleanup</span>
+      <span class=frac-tag>Temporary Coverage</span>
+      <span class=frac-tag>Process Improvement</span>
+      <span class=frac-tag>AI Consulting</span>
+      <span class=frac-tag>Employee Training</span>
+      <span class=frac-tag>Instance Health Checks</span>
+    </div>
+  </div>
+</section>
 <!-- PORTFOLIO -->
 <section class="portfolio" id="portfolio">
   <div class="portfolio-inner">
@@ -871,15 +942,16 @@
         <label for="project_type">What do you need help with?</label>
         <select id="project_type" name="project_type">
           <option value="">Select a service...</option>
-          <option value="Jira Setup/Cleanup">Jira Setup / Cleanup</option>
-          <option value="Confluence Setup/Cleanup">Confluence Setup / Cleanup</option>
+          <option value="Jira Administration">Jira Administration</option>
           <option value="Jira Service Management">Jira Service Management</option>
-          <option value="Trello">Trello</option>
-          <option value="Bitbucket">Bitbucket</option>
-          <option value="SharePoint">SharePoint</option>
-          <option value="Deskpro">Deskpro</option>
-          <option value="Training/Workshop">Training / Workshop</option>
-          <option value="AI/Rovo Integration">AI / Rovo Integration</option>
+          <option value="Confluence">Confluence</option>
+          <option value="Jira Product Discovery">Jira Product Discovery</option>
+          <option value="Workflow Automation">Workflow Automation</option>
+          <option value="AI Enablement">AI Enablement / Training</option>
+          <option value="AI Discovery Session">AI Discovery Session</option>
+          <option value="Fractional Atlassian Admin">Fractional Atlassian Admin</option>
+          <option value="Health Check / Audit">Health Check / Audit</option>
+          <option value="Training / Workshop">Training / Workshop</option>
           <option value="Other">Other / Not Sure</option>
         </select>
       </div>
@@ -896,7 +968,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">YELLOW <span>JUMPSUIT</span> CONSULTING LLC</div>
-  <p>Atlassian Expert · Scrum Master · Problem Solver</p>
+  <p>Atlassian Expert &middot; AI Enablement &middot; Workflow Automation &middot; Scrum Master</p>
   <p style="margin-top:16px; font-size:0.8rem;">© 2026 Yellow Jumpsuit Consulting LLC. All rights reserved.</p>
 </footer>
 
